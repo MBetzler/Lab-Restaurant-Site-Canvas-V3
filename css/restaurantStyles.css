@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC:400,700');
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+/* Margin bottom by footer height */
+margin-bottom: 70px;
+text-align: center;
+}
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 70px;
+border-top: 1px solid rgb(179, 178, 178);
+font-family: 'Vollkorn SC', serif;
+}
+.footer .p-address {
+    margin: 0;
+    margin-top: .4375em;
+}
+.footer .p-phone {
+    margin: 0;
+    margin-top: 1.125em;
+}
+.no-padding {
+    padding: 0;
+}
+.page-header h1 {
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 900;
+}
+.page-header {
+    margin: 0;
+    padding: 0;
+}
+.no-padding,
+.nav-container,
+.footer {
+    background-color: white;
+}
+.nav-container {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.page-header,
+.nav-container {
+    border-bottom: solid 1px rgb(179, 178, 178);/*all three 197 was good*/
+}
+.jumbotron-pic {
+    height: 100%;
+    background-image: url("../images/restaurantInteriorLGrey.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.jumbotron-pic h1,
+.jumbotron-pic p {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+.jumbotron-pic h1 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.jumbotron-pic p {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nav-olive > li.active > a,
+.nav-olive > li.active > a:hover,
+.nav-olive > li.active > a:focus {
+    background-color: rgb(85, 107, 47);
+}
+.nav-olive a {
+    color: rgb(85, 107, 47);
+    text-decoration: none;
+}
+.nav-olive a:hover,
+.nav-olive a:focus {
+    color: rgb(85, 107, 47);
+    text-decoration: underline;
+}

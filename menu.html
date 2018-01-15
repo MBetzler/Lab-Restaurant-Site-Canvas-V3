@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="css/restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            .menu {
+                padding-top: 1em;
+                height: 11em;
+                /* max-width: 272px; */ /*Any way to set a width without breaking Bootstrap grid system?*/
+            }
+            .menu p,
+            table td {
+                margin: 0;
+                padding: 0;
+                font-size: .9em;
+            }
+            .menu h3 {
+                margin: 0 0 .5em;
+                padding: 0;
+                font-size: 1.08em;
+            }
+            table .bev {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body style="background: rgba(255, 255, 0, 0.521);">
+        <div class="container-fluid no-padding">
+            <div class="page-header">
+                <h1>Elusive Diner</h1>
+            </div>
+        </div>
+        <div class="container-fluid nav-container">
+            <ul class="nav nav-pills nav-olive">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="active"><a href="menu.html">Menu</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 menu">
+                    <h3>Burger and Fries</h3>
+                    <p>An American Classic!</p>
+                    <p>Your choice - with or without cheese</p>
+                    <p>Pickle, onion, tomato, and lettuce</p>
+                    <p>Served with out famous thick cut</p>
+                    <p>french fries</p>
+                    <p>$7.95</p>
+                </div>
+                <div class="col-sm-4 menu">
+                    <h3>Hot Dog and Chips</h3>
+                    <p>A Summer Classic!</p>
+                    <p>Your choice - white or wheat bun</p>
+                    <p>Relish, mustard, and ketchup</p>
+                    <p>Served with our house-made chips</p>
+                    <p>$7.95</p>
+                </div>
+                <div class="col-sm-4 menu">
+                    <h3>Italian Sausage and Peppers</h3>
+                    <p>An All-Time Favorite!</p>
+                    <p>Your choice - mild or spicy</p>
+                    <p>Cole Slaw</p>
+                    <p>Served with garlice mashers</p>
+                    <p>$10.95</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 menu">
+                    <h3>Tenderloin Sandwich and Chips</h3>
+                    <p>Really Hits the Spot!</p>
+                    <p>Plain or Sesame Seed Bun</p>
+                    <p>Pickle, onion, tomato, and lettuce</p>
+                    <p>Served with our house-made chips</p>
+                    <p>$8.95</p>
+                </div>
+                <div class="col-sm-4 menu">
+                    <h3>House Salad</h3>
+                    <p>On the Lighter Side</p>
+                    <p>Your choice - with or without cheese</p>
+                    <p>Iceberg lettuce, tomatoes, peppers</p>
+                    <p>Thousand Island or Ranch Dressing</p>
+                    <p>Served with a dinner roll</p>
+                    <p>$6.95</p>
+                </div>
+                <div class="col-sm-4 menu">
+                    <h3>Brisket Sandwich and Fries</h3>
+                    <p>A Tast of Texas!</p>
+                    <p>Smoked Brisket on thick-cut Texas Toast</p>
+                    <p>Cole Slaw</p>
+                    <p>Served with our famous thick-cut</p>
+                    <p>french fries</p>
+                    <p>$7.95</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">          
+                    <table style="margin: 0 auto;">
+                        <caption style="margin-top: 1em; padding: 0; color: black; text-decoration: underline;">Beverages</caption>
+                        <tbody>
+                            <tr>
+                                <td class="bev" style="width: 9em;">Root Beer</td>
+                                <td style="width: 3em;">$3.00</td>
+                            </tr>
+                            <tr>
+                                <td class="bev">Bottled Water</td>
+                                <td>$1.25</td>
+                            </tr>
+                            <tr>
+                                <td class="bev">Lemonade</td>
+                                <td>$1.00</td>
+                            </tr>
+                            <tr>
+                                <td class="bev">Iced Tea</td>
+                                <td>$1.25</td>
+                            </tr>
+                        </tbody>
+                    </table>        
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container-fluid">
+                <p class="p-address">
+                    600 Hamilton Ave N, Minneapolis, MN 55401
+                </p>
+                <p class="p-phone">
+                    (612) 555-1234
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
