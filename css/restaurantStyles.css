@@ -48,27 +48,25 @@ font-family: 'Vollkorn SC', serif;
 .nav-container {
     border-bottom: solid 1px rgb(179, 178, 178);/*all three 197 was good*/
 }
-.jumbotron-pic {
+.background-pic {
     height: 100%;
     background-image: url("../images/restaurantInteriorLGrey.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;   
 }
-.jumbotron-pic h1,
-.jumbotron-pic p {
+.jumbotron-text h1,
+.jumbotron-text p {
     margin: 0;
     background-color: rgba(255, 255, 255, 0.514);
 }
-.jumbotron-pic h1 {
+.jumbotron-text h1 {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.jumbotron-pic p {
+.jumbotron-text p {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
 .nav-olive > li.active > a,
 .nav-olive > li.active > a:hover,
 .nav-olive > li.active > a:focus {
